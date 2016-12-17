@@ -7,7 +7,7 @@ $('#image').animate({
 },2000)
 var element = document.getElementById("start");
 $('#enter').on('click', function(){
-    apple();
+	apple();
 	$('#enter').animate({
 		'margin-left': '110%'
 	},1000)
