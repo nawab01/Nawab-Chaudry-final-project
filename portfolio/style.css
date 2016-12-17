@@ -1,0 +1,52 @@
+body {
+	background-color: #d9d9d9;
+}
+h1 {
+	
+	font-family: helvetica;
+	font-size: 30px;
+	position: relative;
+	margin-left: -100px;
+	margin-top: 50px;
+	cursor: pointer;	
+}
+#enter {
+	z-index: 2;
+	position: absolute;
+}
+#image img:first-child {
+    		margin-top: 100px;
+    		margin-left: -1000px;
+    		height: auto;
+    		width: 1000px;
+    		position: absolute;
+		}
+#main {
+	margin-left: -100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#slider {
+    width: 1200px;
+    height: 800px; 
+    overflow: hidden;  
+}
+
+#slider .slides {
+    display: block;
+    width: 8000px;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1200px;
+    height: 800px;
+}
+
